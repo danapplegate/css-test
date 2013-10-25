@@ -1,0 +1,79 @@
+body {
+    font-family: 'Georgia', 'Times', 'Serif';
+    padding: 0px;
+    margin: 0px;
+    background-color: #cbf4d2;
+    overflow: hidden;
+}
+
+#head-bar {
+    background-color: #6db6bd;
+    position: relative;
+    z-index: 50;
+}
+#header {
+    width: 960px;
+    padding: 10px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+#content-wrap {
+    background-color: #ffffff;
+    padding: 0;
+}
+#content {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+#header h1 {
+    font-size: 24px;
+    font-weight: 50;
+    
+}
+
+#content-wrap img.apples {
+    position: absolute;
+    right: -150px;
+    top: 20px;
+    z-index: 0;
+}
+#content-wrap img.divider {
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    z-index: 100;
+}
+#footer {
+    background-color: #cbf4d2;
+    position: relative;
+    z-index: 50;
+    min-height: 200px;
+}
+
+#floating-sidebar {
+    padding: 20px 10px 20px 15px;
+    background-color: #509b86;
+    position: relative;
+    z-index: 70;
+    width: 300px;
+}
+
+#floating-sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#floating-sidebar ul li {
+    margin: 5px 0px;
+}
+
+#floating-sidebar ul li a:visited,
+#floating-sidebar ul li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
