@@ -51,7 +51,7 @@ body {
     background-color: #cbf4d2;
     position: relative;
     z-index: 50;
-    min-height: 200px;
+    min-height: 900px;
 }
 
 #floating-sidebar {
